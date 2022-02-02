@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Button } from '@/components/Common/Common';
-import HamburgerIcon from '@/components/HamburgerIcon/HamburgerIcon';
+import { Button } from '@components/Common/Common';
+import HamburgerIcon from '@components/HamburgerIcon/HamburgerIcon';
 import styles from './Header.module.scss';
 
 const Header = () => {

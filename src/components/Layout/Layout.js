@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Head from 'next/head';
-import Header from '@/components/Header/Header';
+import Header from '@components/Header/Header';
 import styles from './Layout.module.scss';
 
 const Layout = ({ children, title = 'Happily Demo' }) => {
