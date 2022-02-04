@@ -5,17 +5,18 @@ import Introduction from '@sections/Home/Introduction/Introduction';
 import Experiences from '@sections/Home/Experiences/Experiences';
 import Events from '@sections/Home/Events/Events';
 import content from '@utils/textContent';
+import TalkMember from '@sections/Home/TalkMember/TalkMember';
 
 
 const Home = () => {
-    const { hero, introduction, experiences, events } = content;
+    const { hero, introduction, experiences, events, talkMember } = content;
     return (
         <Layout>
             <Hero content={hero} />
             <Introduction content={introduction} />
             <Experiences content={experiences} />
             <Events content={events} />
-            <div></div>
+            <TalkMember content={talkMember} />
         </Layout>
     );
 };
